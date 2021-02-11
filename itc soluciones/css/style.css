@@ -1,0 +1,492 @@
+
+
+
+/*--------------------------------------------------------------
+# Algunos colores
+
+#f8f9fa gris claro de fondo
+#ff8600 naranja
+#ff9e33 naranja hover
+#4f4f4f gris h3
+#5f7194 celeste logo
+#5f7194 fondo footer
+--------------------------------------------------------------*/
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f8f9fa;
+}
+
+a {
+  color: #;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+/* ======= Header ======= */
+
+#header{
+    background-color: #fff;
+}
+
+#header  nav  a  img{
+    width: 70%;
+}
+
+#navbarSupportedContent  ul  li.nav-item a{
+  color:#8a8a8a;
+  font-size: 0.96rem;
+  padding-right: 1rem;
+}
+
+#navbarSupportedContent  ul  li.nav-item a:hover{
+  color:#4f4f4f;
+  font-weight: 600;
+  font-size: 0.96rem;
+  padding-right: 1rem;
+}
+
+
+#navbarSupportedContent  button{
+  background-color:#ff8600;  #04cfa9
+  font-size: 0.9em;
+  border:none;
+  border-radius: 2em;
+  color: #fff;
+
+}
+
+#navbarSupportedContent  button:hover{
+  background-color:#ff9e33;
+}
+
+/* ======= Carousel ======= */
+
+.carousel-caption {
+    position: absolute;
+    /* antes decía bottom. Modificando estos valores
+    (right y top puedo desplazar el texto por el slider sin modificar su widht o su hight)*/
+    right: 20%;
+    top: 190px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #5f7194;
+    /* Texto a la DER o a la IZQ*/
+    text-align: right;
+}
+
+.carousel-caption h5 {
+    color:#4f4f4f ;
+    font-size: 3.6rem;
+}
+
+.carousel-indicators li {
+    color:;
+}
+
+/* Tecnologia con la que trabajamos*/
+
+#herramientas  h3{
+    color: #4f4f4f;
+    font-size: 30px;
+    font-weight:700;
+}
+
+#herramientas  div  cards button{
+    background-color:#ff8600;
+    font-size: 0.9em;
+    border-radius: 2em;
+    color: #fff;
+}
+
+#herramientas  div  cards button:hover{
+    background-color:#ff9e33;
+}
+
+body  div.container  div  cards{
+    border:none;
+    box-shadow: 0  12px  16px rgba(0,0,0,0.05);
+}
+
+body  div.container  div  cards:hover{
+    border:none;
+    transform: translateY(-15px);
+    box-shadow: 0  12px  16px rgba(0,0,0,0.2);
+}
+
+/*--------------------------------------------------------------
+# Productos Digitales
+--------------------------------------------------------------*/
+
+#productosdigitales {
+  background: url("../img/itc_soluciones-header_productos-digitales.jpg") center center no-repeat;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+}
+
+#productosdigitales::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+#productosdigitales .productosdigitales-top {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 80px 0;
+}
+
+#productosdigitales .productosdigitales-top h3 {
+  font-size: 30px;
+  font-weight:700;
+  color: #5f7194;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#productosdigitales .productosdigitales-top .footer-newsletter {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+#productosdigitales .productosdigitales-top .footer-newsletter form {
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+#productosdigitales .productosdigitales-top .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#productosdigitales .productosdigitales-top .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #ff8600;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#productosdigitales .productosdigitales-top .footer-newsletter form input[type="submit"]:hover {
+  background: #ff9e33;
+}
+
+#productosdigitales .productosdigitales-top .social-links {
+  margin-top: 30px;
+}
+
+#productosdigitales .productosdigitales-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #284864;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#productosdigitales .productosdigitales-top .social-links a:hover {
+  background: #fcb102;
+  color: #fff;
+  text-decoration: none;
+}
+
+#productosdigitales .footer-bottom {
+  border-top: 1px solid #1a2e40;
+  z-index: 2;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#productosdigitales .copyright {
+  text-align: center;
+  float: left;
+}
+
+#productosdigitales .credits {
+  float: right;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  #productosdigitales .copyright, #productosdigitales .credits {
+    padding: 5px;
+    float: none;
+    text-align: ceneter;
+  }
+}
+
+
+
+.clients .client-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 250px;
+}
+
+.clients .client-logo img {
+  height: 60px;
+}
+
+.clients .client-logo:hover img {
+  transform: scale(1.2);
+}
+
+.clients img {
+  transition: all 0.4s ease-in-out;
+}
+
+/*--------------------------------------------------------------
+# Seccion trabaja con nosotros
+--------------------------------------------------------------*/
+#trabajaconnosotros > div{
+  background-color: #fff;
+}
+
+
+#trabajaconnosotros > div > div.container > div > div.col-lg-12 > i{
+  font-size: 50px;
+  color:  #5f7194;
+
+}
+
+
+#trabajaconnosotros > div > div.container > div > div.col-lg-12 > h3{
+  color: #4f4f4f;
+  font-size: 30px;
+  font-weight:700;
+}
+
+#trabajaconnosotros > div > div.container > div > div.col-lg-12 > h5{
+  color: #ff8600;
+}
+
+#accordionExample > div{
+  border-radius: 50px;
+  background-color:#ff8600 ;
+  border:none;
+  padding: 0;
+
+}
+
+#collapseOne > div{
+  background-color: #f7f7f7;
+}
+
+#headingOne  h2 button{
+  font-style: oblique;
+  font-weight: 600;
+  color:#fff;
+  text-decoration: none;
+}
+
+#puestosdisponibles > div > div > div{
+  background-color: #f7f7f7;
+  border-radius:10px;
+}
+
+
+#trabajaaqui {
+  background: url("../img/itc_soluciones-work-with-us.jpg") center center no-repeat;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  height: 400px;
+  position: center center;
+}
+
+/*#03A688 verde  / nuevo:#04cfa9*/
+
+/*--------------------------------------------------------------
+# Seccion contacto
+--------------------------------------------------------------*/
+body > section.container.section.pt-5.pb-5 > h3{
+  color: #4f4f4f; /*#5f7194 celeste  #04cfa9 verde #4f4f4f*/
+  font-size: 30px;
+  font-weight:700;
+
+}
+body > section.container.section.pt-5.pb-5 > div > div.col-lg-5.mb-4 > div > div > div.form-header.blue.accent-1 > h3 > i{
+  color: #04cfa9;
+}
+
+body > section.container.section.pt-5.pb-5 > div > div.col-lg-7 > div.row.text-center > div:nth-child(1) > a > i{
+  color: #04cfa9;
+}
+
+
+
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+footer{
+  background-color:#121222;
+}
+
+ #logoFoo{
+
+  height: 4em;
+  margin-bottom: 1.5em;
+}
+
+
+
+#anclaContacto > div.container.p-5 > div > div.text-left.col-lg-6 > p{
+  color: #a8a8a8;
+
+}
+
+#anclaContacto > div.container.p-5 > div > div > h5{
+  text-align: left;
+  color:#3d3d3d;
+}
+
+#anclaContacto > div.container.p-5 > div > div:nth-child(2){
+  padding-left: 4rem;
+}
+
+.webintern-footer-list {
+  padding: 0;
+  margin-top:1.3em;
+}
+
+/*quita puntos y linea a las listas*/
+.webintern-footer-list li {
+  margin-bottom: 0.6em;
+  list-style: none;
+  text-align: left;
+}
+
+.webintern_footer_title:after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: red;
+  margin-top: 15px;
+}
+
+.webintern-footer-list a {
+  position: relative;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: normal;
+  color: #fff;
+  padding-left: 0;
+  letter-spacing: 1px;
+}
+
+.webintern-footer-list a {
+position: relative;
+font-size: 15px;
+line-height: 18px;
+font-weight: normal;
+color: #a8a8a8;
+padding-left: 0;
+letter-spacing: 1px;
+}
+
+.webintern-footer-list a:hover{
+  color: #5f7194;
+  text-decoration:none;
+}
+
+ul.tt-socail {
+padding: 0;
+margin-top: 30px;
+}
+.tt-socail li {
+display: inline-block;
+margin-right: 10px;
+}
+
+.tt-socail a {
+display: block;
+width: 36px;
+height: 36px;
+font-size: 17px;
+line-height: 34px;
+color: #5f7194;
+text-align: center;
+border: 1px solid #5f7194;;
+-moz-border-radius: 100%;
+border-radius: 100%;
+}
+
+.tt-socail a:hover{
+  color: #5f7194;
+
+}
+
+/*--------------------------------------------------------------
+# Copyright
+--------------------------------------------------------------*/
+
+div.footer-copyright{
+background-color: #5f7194;
+}
+
+div.footer-copyright a.copy{
+color: #c2d7ff;
+letter-spacing:0.03em;
+}
